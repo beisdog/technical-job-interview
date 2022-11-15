@@ -4,10 +4,6 @@
 
 package ch.sbb.trs.cda.beansorter;
 
-import lombok.SneakyThrows;
-
-import java.beans.BeanInfo;
-import java.beans.Introspector;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collection;
