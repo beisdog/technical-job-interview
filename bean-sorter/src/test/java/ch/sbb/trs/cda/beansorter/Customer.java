@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
-    private String firstName;
-    private String lastName;
+    public String firstName;
+    public String lastName;
 }
