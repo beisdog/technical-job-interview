@@ -72,6 +72,7 @@ class BeanSorterTest {
     void sortByFieldLastNameDesc() {
         checkList(customers, "lastName", false, sortedByLastNameDesc);
     }
+
     @Test
     void sortByFieldFirstName() {
         checkList(customers, "firstName", true, sortedByFirstNameAsc);
