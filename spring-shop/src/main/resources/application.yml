@@ -1,0 +1,16 @@
+info:
+  app:
+    name: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'
+    buildtime: '@timestamp@'
+
+spring:
+  jpa:
+    open-in-view: true
+
+logging:
+  level:
+    root: WARN
+    springfox:
+      documentation: DEBUG
